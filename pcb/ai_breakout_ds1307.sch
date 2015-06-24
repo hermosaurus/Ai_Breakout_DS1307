@@ -10348,7 +10348,6 @@ This library includes crystals, resonators, etc.
 <part name="VCC3" library="Ai_Power" deviceset="VCC" device=""/>
 <part name="C1" library="Ai_Passives" deviceset="CAP" device="0603" value="0.1uF"/>
 <part name="GND2" library="Ai_Power" deviceset="GND" device=""/>
-<part name="U$2" library="Ai_Miscellany" deviceset="AI-LOGO" device="XS"/>
 <part name="U$3" library="Ai_Miscellany" deviceset="AI-LOGO" device="XS"/>
 <part name="U$4" library="Ai_Connectors" deviceset="CR1025" device=""/>
 <part name="XL1" library="Ai_FrequencyControl" deviceset="CRYSTAL" device="CYL-2X6MM-SMT"/>
@@ -10368,12 +10367,11 @@ This library includes crystals, resonators, etc.
 <instance part="JS2" gate="G$1" x="158.75" y="93.98" rot="R90"/>
 <instance part="R2" gate="G$1" x="158.75" y="82.55" rot="R90"/>
 <instance part="VCC2" gate="1" x="154.94" y="102.87"/>
-<instance part="J2" gate="M06X1" x="151.13" y="125.73" rot="MR0"/>
+<instance part="J2" gate="M06X1" x="133.35" y="101.6" rot="MR0"/>
 <instance part="GND1" gate="GND" x="113.03" y="57.15"/>
 <instance part="VCC3" gate="1" x="82.55" y="102.87"/>
 <instance part="C1" gate="G$1" x="82.55" y="82.55"/>
 <instance part="GND2" gate="GND" x="82.55" y="57.15"/>
-<instance part="U$2" gate="G$1" x="132.08" y="7.62"/>
 <instance part="U$3" gate="G$1" x="132.08" y="7.62"/>
 <instance part="U$4" gate="G$1" x="101.6" y="63.5"/>
 <instance part="XL1" gate="G$1" x="99.06" y="77.47" rot="R90"/>
@@ -10406,9 +10404,10 @@ This library includes crystals, resonators, etc.
 <pinref part="C1" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="J2" gate="M06X1" pin="6"/>
-<wire x1="146.05" y1="130.81" x2="140.97" y2="130.81" width="0.1524" layer="91"/>
-<label x="140.97" y="130.81" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
+<pinref part="J2" gate="M06X1" pin="1"/>
+<wire x1="128.27" y1="93.98" x2="124.46" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="123.19" y1="93.98" x2="124.46" y2="93.98" width="0.1524" layer="91"/>
+<label x="123.19" y="93.98" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SQW" class="0">
@@ -10419,8 +10418,8 @@ This library includes crystals, resonators, etc.
 </segment>
 <segment>
 <pinref part="J2" gate="M06X1" pin="4"/>
-<wire x1="146.05" y1="125.73" x2="140.97" y2="125.73" width="0.1524" layer="91"/>
-<label x="140.97" y="125.73" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
+<wire x1="128.27" y1="101.6" x2="123.19" y2="101.6" width="0.1524" layer="91"/>
+<label x="123.19" y="101.6" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -10435,8 +10434,8 @@ This library includes crystals, resonators, etc.
 </segment>
 <segment>
 <pinref part="J2" gate="M06X1" pin="3"/>
-<wire x1="146.05" y1="123.19" x2="140.97" y2="123.19" width="0.1524" layer="91"/>
-<label x="140.97" y="123.19" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
+<wire x1="128.27" y1="99.06" x2="123.19" y2="99.06" width="0.1524" layer="91"/>
+<label x="123.19" y="99.06" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -10451,8 +10450,8 @@ This library includes crystals, resonators, etc.
 </segment>
 <segment>
 <pinref part="J2" gate="M06X1" pin="2"/>
-<wire x1="146.05" y1="120.65" x2="140.97" y2="120.65" width="0.1524" layer="91"/>
-<label x="140.97" y="120.65" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
+<wire x1="128.27" y1="96.52" x2="123.19" y2="96.52" width="0.1524" layer="91"/>
+<label x="123.19" y="96.52" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -10483,18 +10482,18 @@ This library includes crystals, resonators, etc.
 </segment>
 <segment>
 <pinref part="J2" gate="M06X1" pin="5"/>
-<wire x1="146.05" y1="128.27" x2="140.97" y2="128.27" width="0.1524" layer="91"/>
-<label x="140.97" y="128.27" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J2" gate="M06X1" pin="1"/>
-<wire x1="146.05" y1="118.11" x2="140.97" y2="118.11" width="0.1524" layer="91"/>
-<label x="140.97" y="118.11" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
+<wire x1="128.27" y1="104.14" x2="123.19" y2="104.14" width="0.1524" layer="91"/>
+<label x="123.19" y="104.14" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="-"/>
 <wire x1="96.52" y1="63.5" x2="96.52" y2="59.69" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J2" gate="M06X1" pin="6"/>
+<wire x1="128.27" y1="106.68" x2="123.19" y2="106.68" width="0.1524" layer="91"/>
+<label x="123.19" y="106.68" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$3" class="0">
